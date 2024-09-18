@@ -1,0 +1,27 @@
+{
+  "name": "api_lowdb",
+  "version": "1.0.0",
+  "description": "api lowdb with upload files",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Lucio Noleto",
+  "license": "MIT",
+  "dependencies": {
+    "api-lowdb": "file:",
+    "dotenv": "^16.4.5",
+    "express": "^4.17.2",
+    "install": "^0.13.0",
+    "js-node-demo": "file:",
+    "lowdb": "^1.0.0",
+    "multer": "^1.4.5-lts.1",
+    "shortid": "^2.2.16",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.4",
+    "supertest": "^6.2.1"
+  }
+}
