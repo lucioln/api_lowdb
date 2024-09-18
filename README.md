@@ -56,7 +56,7 @@ Inicie o servidor:
   npm start
   ```
 
-Configuração
+## Configuração
 
 Este projeto utiliza o arquivo .env para gerenciar as configurações. As seguintes variáveis podem ser configuradas no arquivo .env:
 
@@ -64,7 +64,7 @@ PORT: A porta na qual o servidor será executado (padrão: 3000).
 UPLOAD_DIR: O diretório onde os arquivos enviados serão salvos (padrão: uploads).
 DB_FILE: O nome do arquivo do banco de dados Lowdb (padrão: db.json).
 
-Rotas
+## Rotas
 
 GET /cursos
 Retorna todos os cursos cadastrados.
@@ -81,7 +81,7 @@ Atualiza as informações de um curso existente por ID.
 DELETE /cursos/:id
 Por enquanto, retorna uma mensagem genérica sobre exclusão.
 
-Estrutura do Projeto
+## Estrutura do Projeto
   
   ```bash
   /project-root
@@ -96,8 +96,8 @@ Estrutura do Projeto
   └── app.js         # Arquivo principal
   ```
 
-Contribuindo
+## Contribuindo
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
 
-Licença
+## Licença
 Este projeto está licenciado sob a MIT License.
