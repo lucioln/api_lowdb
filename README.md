@@ -31,7 +31,6 @@ Este projeto é uma API simples para gerenciar cursos. Utiliza o **Express** par
 2.Navegue até o diretório do projeto:
 
   ```bash
-  Copiar código
   cd cursos-api
   Instale as dependências:
   ```
@@ -44,7 +43,6 @@ Crie o arquivo .env na raiz do projeto, exempo:
 
  
   ```bash
-  Copiar código
   PORT=4000
   UPLOAD_DIR=uploads
   DB_FILE=db.json
